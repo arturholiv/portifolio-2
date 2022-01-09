@@ -67,6 +67,10 @@
   border: 3px solid rgb(241, 238, 56);
 }
 
+.link {
+  text-decoration: none;
+}
+
 .header-button:hover {
   background-color: rgb(248, 245, 72);
   border: 3px solid rgb(248, 245, 72);;
@@ -82,20 +86,53 @@
   font-size: 3em; 
 }
 
+#scroll {
+  position: fixed;
+  bottom: 3vh;
+  color: #fff7c7;
+  /* z-index: 1; */
+  font-size: 0.5em;
+}
+
 .about {
   background-color: rgb(241, 238, 56);
-  min-height: 100vh;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.about-icons {
+  font-size: 3em;
+}
+
+.about-me {
+  max-width: 60vh;
+  margin: 6vh;
+}
+
+.link-trybe {
+  text-decoration: none;
+  color: rgb(59, 124, 70)
+}
+
+.myskills {
+  background-color: #414141;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
-
-#scroll {
-  position: fixed;
-  bottom: 3vh;
-  color: #dddddd;
-  /* z-index: 1; */
-  font-size: 0.5em;
+.projects {
+  background-color:rgb(241, 238, 56);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
