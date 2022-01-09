@@ -145,7 +145,7 @@
   /* flex-wrap: wrap; */
   color: rgb(241, 238, 56);
   max-width: 60vh;
-  height: 30vh;
+  height: 40vh;
   margin: 6vh;
 }
 .skills {
@@ -276,6 +276,7 @@
 }
 
 .curriculum-btn {
+  text-decoration: none;
   color: rgb(241, 238, 56);
   background-color: Transparent;
   font-size: 2vh; 

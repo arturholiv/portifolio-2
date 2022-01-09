@@ -9,7 +9,7 @@ export default function Resume() {
      <a href={ resume } download>
         <button type="button" class="curriculum-btn">
           <FaDownload />
-          <div >Meu Currículo</div>
+          <h5 className="link" >Meu Currículo</h5>
         </button>
       </a>
     </div>
