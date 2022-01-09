@@ -13,6 +13,9 @@ export default function About() {
        </p>
          Sou apaixonado por tecnologia e por ideias inovadoras o que me leva a procurar sempre as melhores 
          soluções e ir em busca das melhores tecnologias.
+        <p>
+          Você pode ver minha tragetória no curso da trybe pelo README <a target="_blank" href="https://github.com/arturholiv/trybe-exercices" className="link-trybe"> deste repositório</a>.
+        </p>
       </div>
     </div>
   );

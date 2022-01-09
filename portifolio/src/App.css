@@ -88,7 +88,7 @@
 
 #scroll {
   position: fixed;
-  bottom: 3vh;
+  bottom: 1vh;
   color: #fff7c7;
   /* z-index: 1; */
   font-size: 0.5em;
@@ -96,7 +96,7 @@
 
 .about {
   background-color: rgb(241, 238, 56);
-  min-height: 60vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -122,11 +122,57 @@
   background-color: #414141;
   min-height: 40vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.my-habilities {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: rgb(241, 238, 56);
+  max-width: 60vh;
+  height: 40vh;
+  margin: 6vh;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: rgb(241, 238, 56);
+  max-width: 60vh;
+  max-height: 30vh;
+}
+
+.code-icon {
+  font-size: 3em;
+  color: rgb(241, 238, 56);
+}
+
+.skill-icon {
+  font-size: 2em;
+  color: rgb(241, 238, 56);
+}
+
+.skill-btn {
+  color: rgb(241, 238, 56);
+  background-color: Transparent;
+  font-size: 2vh; 
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: 6vh;
+  width: 12vh;
+  background-repeat:no-repeat;
+  overflow: hidden;
+  border-radius: 1vh;
+  border: 3px solid rgb(241, 238, 56);
+}
+
 .projects {
   background-color:rgb(241, 238, 56);
   min-height: 100vh;
@@ -135,4 +181,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.projects-icon {
+  font-size: 3em;
 }
