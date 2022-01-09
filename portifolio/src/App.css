@@ -175,14 +175,59 @@
 
 .projects {
   background-color:rgb(241, 238, 56);
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 
+.my-projects {
+  margin: 6vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* color: rgb(241, 238, 56); */
+  max-width: 60vh;
+  height: 60vh;
+}
+
+.projects-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 80vh;
+  max-height: 50vh;
+}
+
+.project-btn {
+  color: #414141;
+  background-color: Transparent;
+  font-size: 2vh; 
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  width: 25vh;
+  background-repeat:no-repeat;
+  overflow: hidden;
+  border-radius: 1vh;
+  border: 4px solid #414141;
+}
+
 .projects-icon {
   font-size: 3em;
+}
+
+.footer {
+  background-color: #414141;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vh;
 }
