@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 export default function Header() {
   return (
-    <div className="header">
+    <header className="header">
     <img className="myphoto" alt="me" src="https://avatars.githubusercontent.com/u/81727766?s=400&u=622df5144282c954073d352615a0495d74fbb311&v=4" />
       <div classname="header-intro">
         <div className="header-names">
@@ -23,6 +23,6 @@ export default function Header() {
           </a>
         </div>
         <p id="scroll">Deslize para ler mais sobre mim</p>
-    </div>
+    </header>
   );
 }

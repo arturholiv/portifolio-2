@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="about">
       <MdArticle className="about-icons"/>
-      <div className="about-me">
+      <article className="about-me">
        <h3>Sobre Mim</h3>
        <p>Me Chamo Artur Henrique de Oliveira, tenho 21 anos, sou um desenvolvedor FrontEnd e estudante da 
          <a href="https://www.betrybe.com/" target="_blank" className="link-trybe"> Trybe</a>.
@@ -16,7 +16,7 @@ export default function About() {
         <p>
           Você pode ver minha tragetória no curso da Trybe pelo README <a target="_blank" href="https://github.com/arturholiv/trybe-exercices" className="link-trybe"> deste repositório</a>.
         </p>
-      </div>
+      </article>
     </div>
   );
 }
