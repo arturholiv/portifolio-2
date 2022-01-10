@@ -1,5 +1,6 @@
 import React from 'react';
 import spotitrybeprint from '../images/spotitrybeprint.png'
+import trybewalletprint from '../images/trybewalletprint.png'
 import { MdOutlineWeb } from 'react-icons/md'
 
 export default function Projects() {
@@ -13,8 +14,8 @@ export default function Projects() {
         <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
         </a>
-        <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
-        <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
+        <a href="https://arturholiv.github.io/appdespesas/" target="_blank" >
+        <button className="project-btn"> <img className="project-image" src={ trybewalletprint } /> SpotiTrybe </button>
         </a>
         <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
