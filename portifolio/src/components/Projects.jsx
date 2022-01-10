@@ -15,9 +15,9 @@ export default function Projects() {
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
         </a>
         <a href="https://arturholiv.github.io/appdespesas/" target="_blank" >
-        <button className="project-btn"> <img className="project-image" src={ trybewalletprint } /> SpotiTrybe </button>
+        <button className="project-btn"> <img className="project-image" src={ trybewalletprint } /> App Carteira de Câmbio </button>
         </a>
-        <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
+        {/* <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
         </a>
         <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
@@ -27,8 +27,8 @@ export default function Projects() {
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
         </a>
         <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
-        <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
-        </a>
+        <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button> */}
+        {/* </a> */}
        </div>
       </div>
     </div>
