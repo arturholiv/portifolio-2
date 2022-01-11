@@ -11,10 +11,10 @@ export default function Projects() {
       <div className="my-projects">
        <h3>Alguns projetos</h3>
        <div className="projects-buttons">
-        <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
+        <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" className="project-btn-a" >
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
         </a>
-        <a href="https://arturholiv.github.io/appdespesas/" target="_blank" >
+        <a href="https://arturholiv.github.io/appdespesas/" target="_blank"  className="project-bt-a">
         <button className="project-btn"> <img className="project-image" src={ trybewalletprint } /> App Carteira de Câmbio </button>
         </a>
         {/* <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
