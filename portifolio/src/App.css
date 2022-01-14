@@ -116,6 +116,10 @@
 
 .about-icons {
   font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-me {
@@ -199,7 +203,7 @@
   margin: 6vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* color: rgb(241, 238, 56); */
   max-width: 60vh;
   height: 60vh;

@@ -15,12 +15,12 @@ export default function Header() {
           <a href="https://www.github.com/arturholiv/" target="_blank" className="link">
             <button type="button" className="header-button"> <FaGithub className="social-icon" /> GitHub </button>
           </a>
-          <a href="https://github.com/arturholiv" target="_blank" className="link">
+          <a href="https://linkedin.com/in/arturholiv" target="_blank" className="link">
             <button type="button" className="header-button"> <FaLinkedin className="social-icon" /> LinkedIn </button>
           </a>
-          <a href="https://www.instagram.com/arturholiv/" target="_blank" className="link">
+          {/* <a href="https://www.instagram.com/arturholiv/" target="_blank" className="link">
             <button type="button" className="header-button"> <FaInstagram className="social-icon" /> Instagram </button>
-          </a>
+          </a> */}
         </div>
         <p id="scroll">Deslize para ler mais sobre mim</p>
     </header>

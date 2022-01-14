@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCode, FaCss3Alt, FaHtml5, FaReact, FaGitSquare } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
-import { SiRedux } from 'react-icons/si'
+import { SiRedux, SiJest } from 'react-icons/si'
 
 export default function MySkills() {
 
@@ -18,7 +18,7 @@ export default function MySkills() {
         <button className="skill-btn"> <FaCss3Alt className="skill-icon"/> CSS </button>
         <button className="skill-btn"> <IoLogoJavascript className="skill-icon"/> JavaScript </button>
         <button className="skill-btn"> <SiRedux className="skill-icon"/> Redux </button>
-
+        <button className="skill-btn"> <SiJest className="skill-icon"/> Jest </button>
        </div>
       </div>
     </div>
