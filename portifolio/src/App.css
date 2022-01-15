@@ -323,3 +323,90 @@
   justify-content: center;
   font-size: 1.5vh;
 }
+
+@media screen and (max-width: 800px){
+  .about {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  
+  .about-icons {
+    font-size: 9vh;
+  }
+
+  .myskills {
+    background-color: #414141;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    padding-right: 5vh;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(241, 238, 56);
+    max-width: 60vh;
+    max-height: 40vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .code-icon {
+    padding-left: 3vh;
+    display: flex;
+  }
+
+  .projects {
+    background-color:rgb(241, 238, 56);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .my-projects {
+    /* margin: 6vh; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* color: rgb(241, 238, 56); */
+    /* max-width: 60vh; */
+    height: 60vh;
+    /* padding-left: 20vh; */
+  }
+  
+    .projects-buttons {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      min-width: 40vh;
+      max-height: 50vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+  .project-btn-a {
+    /* height: 20vh; */
+    /* width: 5vh; */
+  }
+
+  .project-btn-b {
+    padding-left: 2.2vh;
+  }
+
+  .project-btn{
+    /* height: 20vh; */
+    /* width: 5vh; */
+  }
+}
