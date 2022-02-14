@@ -9,7 +9,7 @@ export default function About() {
       <article className="about-me">
        <h3>Sobre Mim</h3>
        <p>Me Chamo Artur Henrique de Oliveira, tenho 21 anos, sou um desenvolvedor FrontEnd e estudante da 
-         <a href="https://www.betrybe.com/" target="_blank" className="link-trybe"> Trybe</a>.
+         <a href="https://www.betrybe.com/" target="_blank" className="link-trybe"> Trybe</a>. Atualmente estudando BackEnd
        </p>
          Sou apaixonado por tecnologia e por ideias inovadoras o que me leva a ir em busca das melhores 
          soluções e a me aprofundar nas melhores tecnologias.

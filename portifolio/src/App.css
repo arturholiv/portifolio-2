@@ -136,30 +136,56 @@
 
 .myskills {
   background-color: #414141;
-  min-height: 45vh;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  min-width: 60vh;
 }
 
 .my-habilities {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   /* flex-wrap: wrap; */
   color: rgb(241, 238, 56);
-  max-width: 60vh;
+  /* max-width: 60vh; */
   height: 40vh;
   margin: 6vh;
 }
+
+.skills-back {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  margin: 0 0vh 0  10vh;
+}
+
+.skills-front {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+}
+
 .skills {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   color: rgb(241, 238, 56);
-  max-width: 60vh;
+  min-width: 40vh;
   max-height: 30vh;
+}
+
+.skillset {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  color: rgb(241, 238, 56);
+  /* max-width: 60vh;
+  max-height: 30vh; */
 }
 
 .code-icon {
@@ -339,28 +365,28 @@
 
   .myskills {
     background-color: #414141;
-    min-height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    padding-right: 5vh;
+    min-width: 60vh;
   }
-
-  .skills {
+  
+  .my-habilities {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    color: rgb(241, 238, 56);
-    max-width: 60vh;
-    max-height: 40vh;
-    align-items: center;
     justify-content: center;
+    /* flex-wrap: wrap; */
+    color: rgb(241, 238, 56);
+    /* max-width: 60vh; */
+    height: 40vh;
+    margin: 6vh;
   }
 
   .code-icon {
-    padding-left: 3vh;
+    /* padding-left: 3vh; */
     display: flex;
   }
 
