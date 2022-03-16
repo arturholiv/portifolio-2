@@ -19,7 +19,7 @@ export default function Projects() {
         <button className="project-btn"> <img className="project-image" src={ trybewalletprint } /> App Carteira de Câmbio </button>
         </a>
         <a href="https://arturholiv.github.io/StarWarsPlanetSearch/" target="_blank" >
-        <button className="project-btn"> <img className="project-image" src={ starwarsplanets } /> SpotiTrybe </button>
+        <button className="project-btn"> <img className="project-image" src={ starwarsplanets } /> StarWars Panets Data </button>
         </a>
         {/* <a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
