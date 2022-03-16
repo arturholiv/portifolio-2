@@ -164,9 +164,7 @@
 }
 
 .skills-front {
-  display: flex;
-  flex-direction: column;
-  /* align-content: center; */
+	/* display: grid; */
 }
 
 .skills {
