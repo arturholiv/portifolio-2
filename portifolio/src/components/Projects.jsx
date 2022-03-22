@@ -1,9 +1,10 @@
 import React from 'react';
-import { spotitrybeprint, trybewalletprint, starwarsplanets, todolistprint } from '../images'
+import spotitrybeprint from '../images/spotitrybeprint.png'
+import trybewalletprint from '../images/trybewalletprint.png'
+import starwarsplanets from '../images/starwarsplanets.png'
+import todolistprint from '../images/todolistprint.png'
 import { MdOutlineWeb } from 'react-icons/md'
-
 export default function Projects() {
-
   return (
     <div className="projects">
       <MdOutlineWeb className="projects-icon" />
