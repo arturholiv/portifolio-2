@@ -20,9 +20,9 @@ export default function Projects() {
         <a href="https://arturholiv.github.io/StarWarsPlanetSearch/" target="_blank" rel='noreferrer'>
         <button className="project-btn"> <img className="project-image" alt="starwars print" src={ starwarsplanets } /> StarWars Planets Data </button>
         </a>
-         <a href="https://arturholiv.github.io/todolist/" target="_blank" rel='noreferrer'>
+         {/* <a href="https://arturholiv.github.io/todolist/" target="_blank" rel='noreferrer'>
         <button className="project-btn"> <img className="project-image" alt="toodlist print" src={ todolistprint } /> To Do List </button>
-        </a>
+        </a> */}
         {/*<a href="https://arturholiv.github.io/spotitrybe/" target="_blank" >
         <button className="project-btn"> <img className="project-image" src={ spotitrybeprint } /> SpotiTrybe </button>
         </a>
